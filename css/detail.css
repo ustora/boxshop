@@ -1,0 +1,16 @@
+/* content */
+    /* detail block */
+    #content #detail-block .name-proc{font-size: 1.7em; font-family: 'Poppins', sans-serif; font-weight: 600;}
+    #content #detail-block p.card-text.pb-3{color: #777;}
+    #content #detail-block .price-proc{font-size: 1.7em; font-weight: 600;}
+    #content #detail-block .price-proc span{font-size: 20px; text-decoration: line-through; color: #ccc;}
+    #content #detail-block .btn.btn-success{font-size: 0.9em; float: right;}
+    #content #detail-block ul li{padding: 0px 10px;}
+    /* end detail block */
+
+    /* product tab */
+    #content #product-tab .nav-link{border-radius: 0; padding: 20px}
+    #content #product-tab .nav-link.active{background-color: #59B210;}
+    #content #product-tab .tab-content .tab-pane{padding: 20px; line-height: 30px;}
+    /* end product tabs */
+/* end content */

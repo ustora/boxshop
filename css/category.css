@@ -16,16 +16,19 @@
     #content #cate .thumbnail{margin-bottom: 30px; padding: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; position: relative;}
     #content #cate .item.list-group-item{float: none; width: 100%; background-color: #fff; margin-bottom: 30px; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; padding: 0 2rem; border: 0;}
     #content #cate .item.list-group-item .img-event{float: left; width: 30%;}
-    #content #cate .item.list-group-item .list-group-image{margin-right: 20px;}
-    #content #cate .item.list-group-item .thumbnail{margin-bottom: 0px; display: inline-block;}
+    #content #cate .item.list-group-item .list-group-image{margin-right: 20px; padding-right: 20px;}
+    #content #cate .item.list-group-item .thumbnail{margin-bottom: 0px; display: inline-block; border-bottom: 1px solid #eaeaea !important; padding-bottom: 50px; position: relative;}  
     #content #cate .item.list-group-item .caption{float: left; width: 70%; margin: 0;}
     #content #cate .item.list-group-item:before, .item.list-group-item:after{display: table; content: " ";}
     #content #cate .item.list-group-item:after{clear: both;}
-    #content #cate .effect ul li{padding: 0px 10px; margin: 0px 5px; width: 35px; height: 35px; background-color: #fff; line-height: 35px;}
-    #content #cate .effect ul li a{color: #000;}
-    #content #cate .effect ul li a:hover{color: #59B210; transition: 0.4s;}
-    #content #cate .effect ul li.active, #content #cate .effect ul li.active a{background-color: #59B210; color: #fff}
-    #content #cate .effect{position: absolute; top: 0%; left: 50%; transform: translate(-50%, -50%); opacity: 0;}
-    #content #cate .thumbnail:hover .effect{top: 25%; transition: all 0.5s ease; opacity: 1;}
+    #content #cate .btn.btn-success{background-color: #59B210;}
+    #content #cate .btn.btn-outline-success{border: 1px solid #59B210; color: #000;}
+    #content #cate .btn.btn-outline-success:hover{color: #fff; background-color: #59B210;}
+    /* end list-grid */
+
+    /* pagination */
+    #content #pagi .page-item.active .page-link{background-color: #59B210 !important; border: 1px solid #59B210 !important;}
+    #content #pagi .page-item:hover .page-link{background-color: #59B210; color: #fff}
+    /* end paginaton */
 /* end content */
 

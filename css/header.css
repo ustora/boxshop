@@ -21,8 +21,12 @@ body{font-family: 'Poppins', sans-serif; background-color: red; font-family: 'Op
     /* header bot */
     #header #header-bot .navbar{border-bottom: 1px solid #eaeaea; border-top: 1px solid #eaeaea;}
     #header #header-bot .bg-light{background: #f9f9f9 !important;}
+    #header #header-bot .nav-item{padding: 0px 3px;}
     #header #header-bot .nav-item.active .nav-link{background-color: #59B210; color: #fff}
     #header #header-bot .nav-item .nav-link{color: #777; text-transform: uppercase; font-size: 13px; font-weight: 400; padding: 10px}
     #header #header-bot .nav-item:hover .nav-link{background-color: #59B210; color: #fff; transition: all 0.5s ease-in-out;}
+    #header #header-bot .dropdown-menu .dropdown-item{color: #777; text-transform: uppercase; }
+    #header #header-bot .dropdown-item.active, #header #header-bot .dropdown-item:active{color: #fff; text-decoration: none; background-color: #59B210;}
+    #header #header-bot .dropdown-item:hover{color: #59B210; background-color: transparent;}
     /* end header bot */
 /* end header */
