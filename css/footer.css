@@ -1,0 +1,41 @@
+/* brand carousel */
+#content #brand-carousel .owl-nav{display: none;}
+/* end brand carousel */
+
+/* product deals */
+#content #product-deals h4{font-weight: 600; margin-bottom: 50px; text-align: center;}
+#content #product-deals .owl-nav{position: absolute; top: -40px; left: 50%; font-size: 20px; transform: translateX(-50%);}
+#content #product-deals .owl-nav .owl-prev span,
+#content #product-deals .owl-nav .owl-next span{background-color: #f9f9f9; padding: 5px 10px 5px; margin-left: 10px;}
+#content #product-deals .owl-nav .owl-prev:hover span,
+#content #product-deals .owl-nav .owl-next:hover span{background-color: #59B210; color: #fff; transition: all 0.4s;}
+#content #product-deals .owl-nav .owl-next:focus,
+#content #product-deals .owl-nav .owl-prev:focus{outline: 0;}
+/* end product-deals */
+
+/* newsleter */
+#content #news-letter h3{font-size: 21px; font-weight: 600; margin-bottom: 10px;}
+#content #news-letter .form-control{width: 50%;}
+/* end newsletter */
+
+/* footer */
+.footer-v1.bg-img{background-color: #f9f9f9; background-repeat: repeat; border-top: 1px solid #eaeaea;}
+.footer-v1 .headline{display: block; margin: 10px 0 25px 0; color: #222; font-size: 20px; padding: 30px 0px 5px 0px;}
+.footer-v1 .headline p{margin: 0 0 -2px 0; padding-bottom: 5px; display: inline-block; border-bottom: 2px solid #59B210; text-transform: uppercase;}
+.footer-v1 .link-list > li{padding: 7px 0px;}
+.footer-v1 .link-list > li > a , .footer-v1 .link-list > li> i{color:#777; font-size: 16px;}
+.footer-v1  #copyright{background-color: #3D3D3D; padding: 20px 0px;}
+.footer-v1  #copyright ul.left li{padding-right: 10px;}
+.footer-v1  #copyright ul.left li .fa{width: 35px; height: 35px;text-align: center; line-height: 35px; color: #fff}
+.footer-v1  #copyright ul.left li .fa.fa-facebook{background-color: #3C5B9B;}
+.footer-v1  #copyright ul.left li .fa.fa-twitter{background-color: #359BED;}
+.footer-v1  #copyright ul.left li .fa.fa-google-plus{background-color: #E33729;}
+.footer-v1  #copyright ul.left li .fa.fa-rss{background-color: #FD9F13;}
+.footer-v1  #copyright ul.left li .fa.fa-linkedin{background-color: #027ba5;}
+.footer-v1  #copyright ul.left li .fa.fa-youtube{background-color: #F03434;}
+.footer-v1  #copyright ul.right li{padding-left: 10px;}
+/* end footer */
+
+@media (max-width: 768px){
+    #content #slider{display: none;}
+}
